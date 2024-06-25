@@ -10,13 +10,13 @@
 | **Mata Kuliah** | Basis data |
 
 # Soal
-<img src="Sreenshot/Soal.png">
+<img src="screenshot pratikum6/Soal.png">
 
 # ER-Diagram
-<img src="Sreenshot/ER-D.png">
+<img src="screenshot pratikum6/ER-D.pngg">
 
 # Tabel Data
-<img src="Sreenshot/Tabel.png">
+<img src="screenshot pratikum6/Tabel.png">
 
 # Soal Latihan Praktikum
 - Buat query untuk menampilkan:
@@ -44,7 +44,7 @@ GROUP BY Project.id_proj;
 ```
 ***Output :***
 
-<img src="Sreenshot/1.png">
+<img src="screenshot pratikum6/1.png">
 
 
 ## 2. Jumlah Karyawan Tiap Departemen Yang Bekerja Pada Tiap-tiap Project.
@@ -59,7 +59,7 @@ GROUP BY Project.id_proj, Departemen.id_dept;
 ```
 ***Output :***
 
-<img src="Sreenshot/2.png">
+<img src="screenshot pratikum6/2 (1).png">
 
 
 ## 3. Ada Berapa Project Yang Sedang Dikerjakan Oleh Departemen ***RnD***? (ket: project berjalan adalah yang statusnya 1).
@@ -74,7 +74,7 @@ WHERE Departemen.nama = 'RnD' AND Project.status = 1;
 ```
 ***Output :***
 
-<img src="Sreenshot/3.png">
+<img src="screenshot pratikum6/3 (1).png">
 
 
 ## 4. Berapa banyak Project yang sedang dikerjakan oleh Ari ?
@@ -86,7 +86,7 @@ INNER JOIN Karyawan ON Project_detail.nik = Karyawan.nik
 WHERE Karyawan.nama = 'Ari' AND Project_detail.id_proj IN (SELECT id_proj FROM Project WHERE status = 1);
 ```
 ***Output :***
-<img src="Sreenshot/4.png">
+<img src="screenshot pratikum6/4 (1).png">
 
 
 ## 5. Siapa Saja Yang Mengerjakan Project B ?
@@ -99,4 +99,4 @@ WHERE Project_detail.id_proj IN (SELECT id_proj FROM Project WHERE nama = 'B');
 ```
 ***Output :***
 
-<img src="Sreenshot/5.png">
+<img src="screenshot pratikum6/5 (1).png">
