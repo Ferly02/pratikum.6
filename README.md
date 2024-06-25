@@ -4,8 +4,8 @@
 ## Profil
 | Variable | Isi |
 | -------- | --- |
-| **Nama** | Michael nicholas kardono |
-| **NIM** | 312310568 |
+| **Nama** | ferly ardiansyah |
+| **NIM** | 312310448 |
 | **Kelas** | TI.23.A5 |
 | **Mata Kuliah** | Basis data |
 
